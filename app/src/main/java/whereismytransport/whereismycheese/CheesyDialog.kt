@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 
-class CheesyDialog(context: Activity, var listener: INoteDialogListener) : Dialog(context), View.OnClickListener{
+class CheesyDialog(context: Activity, var listener: INoteDialogListener) : Dialog(context), View.OnClickListener {
 
     private lateinit var noteEditText: EditText
 
